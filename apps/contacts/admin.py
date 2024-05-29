@@ -3,6 +3,6 @@ from.models import *
 
 # Register your models here.
 @admin.register(Contacts)
-class NewsAdmin(admin.ModelAdmin):
+class ContactsAdmin(admin.ModelAdmin):
     list_display = ['id', 'description', 'email']
     list_filter = ['id', 'description', 'email', 'phone_number']
